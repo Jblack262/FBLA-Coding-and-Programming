@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FBLA Coding and Programming</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!--Main title at the top of the page-->
+    <h1 id="titleBar">FBLA Quiz</h1>
+    <br>
+
+<form action="#" name="FBLAQuiz"></form>
+    
+    <div id="question1" class="questionBox">
+        <h1 id="questionNumber">1.</h1>
+        <h3 id="Q1"></h3>
+            <!--Input field for the first question-->
+            <button type="button" id="Q1button1" class="questionButton" onclick="select1()"></button><br><br>       
+            <button type="button" id="Q1button2" class="questionButton" onclick="select2()"></button><br><br>
+            <button type="button" id="Q1button3" class="questionButton" onclick="select3()"></button><br><br>
+            <button type="button" id="Q1button4" class="questionButton" onclick="select4()"></button>
+    </div>
+    <br>
+    <div id="question2" class="questionBox">
+        <h1 id="questionNumber">2.</h1>
+        <h3 id="Q2"></h3>
+            <!--Input field for the first question-->
+            <button type="button" id="Q2button1" class="questionButton" onclick="Q2select1()"></button><br><br>       
+            <button type="button" id="Q2button2" class="questionButton" onclick="Q2select2()"></button><br><br>
+            <button type="button" id="Q2button3" class="questionButton" onclick="Q2select3()"></button><br><br>
+            <button type="button" id="Q2button4" class="questionButton" onclick="Q2select4()"></button>
+    </div>
+    <br>
+    <div id="question3" class="questionBox">
+        <h1 id="questionNumber">3.</h1>
+        <h3 id="Q3"></h3>
+            <!--Input field for the first question-->
+            <input type="radio" name="Q3radio" id="radio1" name="radio1">
+            <button type="button" id="Q3radio1" class="questionButton" onclick="checkRadio1()"></button><br><br>
+            <input type="radio" name="Q3radio" id="radio2" name="radio1"> 
+            <button type="button" id="Q3radio2" class="questionButton" onclick="checkRadio2()"></button><br><br>
+    </div>
+    <br>
+    <div id="question4" class="questionBox">
+        <h1 id="questionNumber">4.</h1>
+        <h3 id="Q4"></h3>
+            <!--Input field for the first question-->
+            <input type="text" id="Q4text" name="Q4text" value="" placeholder="Answer Here">
+
+    </div>
+    <br>
+    <div id="question5" class="questionBox">
+        <h1 id="questionNumber">5.</h1>
+        <h3 id="Q5"></h3>
+            <!--Input field for the first question-->
+            <select name="Q5dropdown" id="Q5dropdown">
+                <option value="0">--please select an option--</option>
+                <option value="1" id="Q5option1" onclick="Q5select1()"></option>
+                <option value="2" id="Q5option2" onclick="Q5select2()"></option>
+                <option value="3" id="Q5option3" onclick="Q5select3()"></option>
+                <option value="4" id="Q5option4" onclick="Q5select4()"></option>
+            </select>
+    </div>
+</form>
+
+
+
+
+    <br><br><br>
+
+    <div id="submit" class="submitBox">
+        <input type="submit" onclick="submitButton()" id="submitButton"></input>
+    </div>
+
+    <div id="confirmSubmit">
+        <h3>Are you sure you want to submit all your answers?</h3>
+        <div id="confirmButtons">
+            <button id="item-1" onclick="finalSubmit()">Submit All</button>
+            <button id="item-2" onclick="cancel()">Cancel</button>
+        </div>
+    </div>
+
+    <!--Link to the Javascript file-->
+    <script src="js/index.js"></script>
+</body>
+</html>
