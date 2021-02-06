@@ -634,5 +634,5 @@ function finalSubmit() {
         alert("You answered " + right + " questions correctly. " + score + "%");
     }
 
-    window.location.href = "main.html";
+    window.location.href = "index.html";
 }
