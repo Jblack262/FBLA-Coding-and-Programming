@@ -396,7 +396,7 @@ if (four == 1) {
 }
 //3
 if (four == 2) {
-    var d = "According to the FBLA creed, ____ is the right og every person.";
+    var d = "According to the FBLA creed, ____ is the right of every person.";
     document.getElementById("Q4").innerHTML = d;
 }
 //4
@@ -426,7 +426,7 @@ if (four == 7) {
 }
 //9
 if (four == 8) {
-    var d = "FBLA provides programs to help high school students prepare for carreers in ____.";
+    var d = "FBLA provides programs to help high school students prepare for careers in ____.";
     document.getElementById("Q4").innerHTML = d;
 }
 //10

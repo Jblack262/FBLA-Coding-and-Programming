@@ -1,10 +1,10 @@
 /* Tags */
 
 body {
-    margin: 20px;
+    margin: 1.25rem;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: lightgray;
+    background-color: white;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -16,15 +16,23 @@ h1, h2, h3, h4, h5, h6, p {
 button{
     font-size: 125%;
     scale:1.5;
-    padding: 5px;
-    border-radius: 10px;
-    border: 4px solid #02639c;
+    padding: 0.313rem;
+    border-radius: 0.625rem;
+    border: 0.25rem solid #1c6daf;
 }
 
 /* IDs */
 
+#titleBar {
+    color: white;
+    background-color: #c02942;
+    border-radius: .25rem;
+    font-size: 5rem;
+    margin: 0rem;
+}
+
 #question1 {  
-    background-color: #02639c;
+    background-color: #1c6daf;
     text-align: center;
     padding: 2%;
 }
@@ -34,31 +42,31 @@ button{
 }
 
 #question2 {  
-    background-color: #02639c;
+    background-color: #1c6daf;
     text-align: center;
     padding: 2%;
 }
 
 #question3 {  
-    background-color: #02639c;
+    background-color: #1c6daf;
     text-align: center;
     padding: 2%;
 }
 
 #question4 {  
-    background-color: #02639c;
+    background-color: #1c6daf;
     text-align: center;
     padding: 2%;
 }
 
 #question5 {  
-    background-color: #02639c;
+    background-color: #1c6daf;
     text-align: center;
     padding: 2%;
 }
 
 #submit {
-    background-color: #02639c;
+    background-color: #c02942;
     text-align: center;
     padding: 2%;
 }
@@ -66,49 +74,45 @@ button{
 #submitButton {
     font-size: 125%;
     scale:1.5;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 0.313rem;
+    border-radius: 0.625rem;
 }
 
 #dropbtn {
     background-color: white;
     color: black;
     text-decoration: none;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #Q5dropdown {
-    min-width: 165px;
-}
-
-#titleBar {
-    border-radius: 30px;
+    min-width: 10.313rem;
 }
 
 #questionNumber {
-    background-color: #02639c;
+    background-color: #1c6daf;
     text-align: left;
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 #confirmSubmit {
     position: fixed;
     top: calc((100% / 2) - (130.63px / 2));
     left: calc((100% / 2) - (466px / 2));
-    padding: 10px;
+    padding: 0.625rem;
     background-color: white;
-    border: 3px solid black;
-    border-radius: 30px;
+    border: 0.188rem solid black;
+    border-radius: 1.875rem;
 
     visibility: hidden;
 }
 #confirmButtons {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px;
+    grid-gap: 1.25rem;
     justify-content: center;
-    width: 440px;
+    width: 27.5rem;
 }
 #item-1 {
     grid-column: 1;
@@ -120,7 +124,7 @@ button{
 }
 #item-1, #item-2 {
     cursor: pointer;
-    width: 180px;
+    width: 11.25rem;
 }
 #item-1:hover, #item-2:hover {
     background-color: gray;
@@ -129,9 +133,9 @@ button{
 /* classes */
 
 .questionButton {
-    min-width: 80px;
+    min-width: 5rem;
 }
 
 .questionBox, h3, .submitBox{
-    border-radius: 30px;
+    border-radius: 1.875rem;
 }
