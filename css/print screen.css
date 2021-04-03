@@ -5,7 +5,6 @@ body {
 /*Classes*/
 
 .results {
-    top: 50%;
     background-color: #1c6daf;
     text-align: center;
     border-radius: 1.875rem;
@@ -26,6 +25,14 @@ body {
 }
 
 #score {
+    color: white;
+    padding: 1.5%;
+    padding-top: .5%;
+    font-size: 3.5rem;
+    text-shadow: 0.1rem -0.1rem 1rem white;
+}
+
+#score-text {
     color: white;
     padding: 1.5%;
     padding-top: .5%;
